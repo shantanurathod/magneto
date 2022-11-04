@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.container
+{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.main-title
+{
+    color: white;
+    font-size:20px;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    z-index: 3;
+}
